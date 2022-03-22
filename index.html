@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CALCULATOR</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>CALCULATOR</h1>
+
+      <div class="first-row">
+        <input type="text" name="result" class="result" id="result" value="" placeholder="Result here
+        "  />
+        <input type="button" value="BACK" onclick="backspace('')" />
+      </div>
+      <div class="second-row">
+        <input type="button" value="1" onclick="displayvalue('1')" id="one" />
+        <input type="button" value="2" onclick="displayvalue('2')" id="two" />
+        <input type="button" value="3" id="three" onclick="displayvalue('3')" />
+        <input type="button" value="+" onclick="displayvalue('+')" />
+      </div>
+      <div class="third-row">
+        <input type="button" value="4" id="four" onclick="displayvalue('4')" />
+        <input type="button" value="5" id="five" onclick="displayvalue('5')" />
+        <input type="button" value="6" id="six" onclick="displayvalue('6')" />
+        <input type="button" value="-" onclick="displayvalue('-')" />
+      </div>
+      <div class="fourth-row">
+        <input type="button" value="7" id="seven" onclick="displayvalue('7')" />
+        <input type="button" value="8" id="eight" onclick="displayvalue('8')" />
+        <input type="button" value="9" id="nine" onclick="displayvalue('9')" />
+        <input type="button" value="x" onclick="displayvalue('*')" />
+      </div>
+      <div class="fifth-row">
+        <input type="button" value="/" onclick="displayvalue('/')" />
+
+        <input type="button" value="0" id="zero" onclick="displayvalue('0')" />
+        <input type="button" value="." class="dot" onclick="displayvalue('.')" />
+        <input type="button" value="=" onclick="solve()" />
+      </div>
+      <div class="bottom-buttons">
+        
+       
+        
+    
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/f28b055962.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
